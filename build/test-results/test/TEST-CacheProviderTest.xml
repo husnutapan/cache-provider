@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CacheProviderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-06T18:34:59" hostname="Husnus-MacBook-Pro.local" time="0.028">
+  <properties/>
+  <testcase name="cache and evict()" classname="CacheProviderTest" time="0.028"/>
+  <system-out><![CDATA[User(id=1, name=user-1, age=28)
+User(id=1, name=user-2, age=30)
+User(id=1, name=user-3, age=24)
+User(id=1, name=user-1, age=28)
+User(id=1, name=user-2, age=30)
+User(id=1, name=user-3, age=24)
+User(id=1, name=user-1, age=28)
+User(id=1, name=user-2, age=30)
+User(id=1, name=user-3, age=24)
+User(id=1, name=user-1, age=28)
+User(id=1, name=user-2, age=30)
+User(id=1, name=user-3, age=24)
+User(id=1, name=user-1, age=28)
+User(id=1, name=user-2, age=30)
+User(id=1, name=user-3, age=24)
+User(id=1, name=user-1, age=28)
+User(id=1, name=user-2, age=30)
+User(id=1, name=user-3, age=24)
+]]></system-out>
+  <system-err><![CDATA[Aug 06, 2023 9:34:59 PM dataprovider.Provider fetchUsers
+INFO: Fetching user list
+Aug 06, 2023 9:34:59 PM dataprovider.Provider fetchUsers
+INFO: Fetching user list
+]]></system-err>
+</testsuite>
